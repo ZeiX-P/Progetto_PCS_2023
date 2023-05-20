@@ -1,0 +1,8 @@
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/CMakeFiles/raffinamento_test.dir
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/CMakeFiles/raffinamento_program.dir
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/CMakeFiles/edit_cache.dir
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/test/CMakeFiles/edit_cache.dir
+C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/test/CMakeFiles/rebuild_cache.dir

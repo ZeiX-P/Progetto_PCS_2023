@@ -1,0 +1,9 @@
+# ninja log v5
+14	605	7063181877618719	CMakeFiles/raffinamento_program.dir/main_program.cpp.obj	63bb944e0e783e48
+7	612	7063181877645685	CMakeFiles/raffinamento_test.dir/src/empty_class.cpp.obj	1488b27b528c61b7
+22	621	7063181877705002	CMakeFiles/raffinamento_program.dir/src/empty_class.cpp.obj	4ddd721ce6f854db
+621	765	7063181879185558	raffinamento_program.exe	474aad870b1d4aae
+1	1531	7063181886985399	CMakeFiles/raffinamento_test.dir/main_test.cpp.obj	33a1592754e19add
+1532	2419	7063181894984288	raffinamento_test.exe	7fa7ef30a171f8ce
+1532	2419	7063181894984288	raffinamento_test[1]_tests.cmake	7fa7ef30a171f8ce
+1532	2419	7063181894984288	C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Debug/raffinamento_test[1]_tests.cmake	7fa7ef30a171f8ce

@@ -1,0 +1,20 @@
+{
+	"compiler-id" : "GNU",
+	"dir-cur-bld" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Build/eigen3/lapack",
+	"dir-cur-src" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Source/eigen3/lapack",
+	"dir-top-bld" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Build/eigen3",
+	"dir-top-src" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Source/eigen3",
+	"include-dirs" : 
+	[
+		"C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Source\\eigen3",
+		"C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Source\\eigen3\\lapack\\..\\blas"
+	],
+	"language" : "Fortran",
+	"linked-target-dirs" : 
+	[
+		"C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Build/eigen3/blas/CMakeFiles/eigen_blas.dir"
+	],
+	"module-dir" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Build/eigen3/lapack",
+	"submodule-ext" : ".smod",
+	"submodule-sep" : "@"
+}
