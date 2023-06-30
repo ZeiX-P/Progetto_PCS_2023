@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "raffinamento_test.exe"
+			"path" : "raffinamento_program.exe"
 		},
 		{
-			"path" : "raffinamento_test.pdb"
+			"path" : "raffinamento_program.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,9 +14,9 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries",
 			"target_compile_options",
-			"target_include_directories"
+			"target_include_directories",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -30,31 +30,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 57,
+				"line" : 82,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 65,
+				"line" : 89,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 67,
+				"line" : 88,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 66,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 64,
+				"line" : 87,
 				"parent" : 0
 			}
 		]
@@ -68,7 +62,7 @@
 					"fragment" : "-DQT_QML_DEBUG -Wa,-mbig-obj -g -Wall -Wextra -pedantic-errors"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-fPIC"
 				},
 				{
@@ -78,22 +72,13 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Raffinamento/src"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/Projects/Raffinamento/test"
-				},
-				{
-					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Install/eigen3/include/eigen3"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "C:/Users/LENOVO/Desktop/Progetto_Raffinamento/externals/Main_Install/googletest/include"
 				}
 			],
 			"language" : "CXX",
@@ -101,18 +86,18 @@
 			{
 				"backtraces" : 
 				[
-					2
+					1
 				],
 				"standard" : "11"
 			},
 			"sourceIndexes" : 
 			[
 				0,
-				3
+				1
 			]
 		}
 	],
-	"id" : "raffinamento_test::@6890427a1f51a3e7e1df",
+	"id" : "raffinamento_program::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -126,44 +111,14 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Install\\googletest\\lib\\libgtest.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Install\\googletest\\lib\\libgtest_main.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Install\\googletest\\lib\\libgmock.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Install\\googletest\\lib\\libgmock_main.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Install\\googletest\\lib\\libgmock.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\LENOVO\\Desktop\\Progetto_Raffinamento\\externals\\Main_Install\\googletest\\lib\\libgtest.a",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "raffinamento_test",
-	"nameOnDisk" : "raffinamento_test.exe",
+	"name" : "raffinamento_program",
+	"nameOnDisk" : "raffinamento_program.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -176,19 +131,11 @@
 			"sourceIndexes" : 
 			[
 				0,
-				3
+				1
 			]
 		},
 		{
 			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1,
-				4
-			]
-		},
-		{
-			"name" : "",
 			"sourceIndexes" : 
 			[
 				2
@@ -200,18 +147,8 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main_test.cpp",
+			"path" : "main_program.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "test/test_empty.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "test",
-			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,

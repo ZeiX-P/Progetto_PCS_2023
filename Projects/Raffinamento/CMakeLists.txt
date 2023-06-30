@@ -52,7 +52,7 @@ list(APPEND raffinamento_test_HEADERS ${raffinamento_test_headers})
 list(APPEND raffinamento_test_INCLUDE ${raffinamento_test_includes})
 
 # Create executable
-################################################################################
+###############################################################################
 
 add_executable(raffinamento_test
 	main_test.cpp
@@ -60,6 +60,17 @@ add_executable(raffinamento_test
 	${raffinamento_test_INCLUDE}
 	${raffinamento_SOURCES}
     ${raffinamento_HEADERS})
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/Dataset/Test1/Cell0Ds.csv
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/Dataset/Test1/Cell1Ds.csv
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/Dataset/Test1/Cell2Ds.csv
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+
 
 target_link_libraries(raffinamento_test ${raffinamento_LINKED_LIBRARIES})
 target_link_libraries(raffinamento_test ${raffinamento_test_LINKED_LIBRARIES})
